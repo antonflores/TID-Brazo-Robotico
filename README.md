@@ -1,3 +1,3 @@
-# TID---Brazo-Rob-tico
+# TID-Brazo-Robotico
 
 Este proyecto de investigación consiste en ...
