@@ -1,0 +1,3 @@
+https://github.com/j96w/MuJoCo_Unity_UR5
+
+El enlace de arriba corresponde a un repositorio de github donde se encuentra el trabajo de la simulación del funcionamiento de brazo robótico creado en unity pero que utiliza el motor MuJoCo. Además de la diferencia de la física de ese proyecto (el motor), este está realizado en lenguaje Python.
