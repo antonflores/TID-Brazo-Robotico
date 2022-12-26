@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=VdJGouwViPs
+https://www.youtube.com/watch?v=0YiePoTe2Xo
+
+Los enlaces de arriba corresponden a un tutorial de youtube "Unity Inverse Kinematics - Arm Animation" con dos partes (por eso son dos links) enseñando como armar la estructura del brazo robótico en unity.
+
+En el caso de que lo que se esté buscando sea simplemente crear la estructura y no aprender tanto de la teoría del armado del brazo, deben saltarse los siguientes minutos del video Parte 1:
+-  4:16 - 7:06
+-  17:11 hasta el final
+Es importante mencionar que, si bien no es mucho, el video Parte 1 muestra un código que hace funcionar el brazo.
+
+En la Parte 2 del tutorial, la mitad del video se basa en la estética del brazo creado. En la descripción del video se encuentra el paquete de las texturas necesarias para ir siguiendo el video paso a paso.
