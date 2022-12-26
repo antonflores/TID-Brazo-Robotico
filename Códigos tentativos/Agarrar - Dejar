@@ -1,0 +1,23 @@
+#Agarrar/Dejar objetos con el brazo
+
+{
+   public static Vector3 currentPos;
+   private string waittograb = "n";
+   
+   void Start()
+   {
+   
+   }
+   
+   void Update()
+   {
+      if((Input.GetMouseButtonDown(0)) && (waittograb == "n"))
+      {
+          waittograb = "y";
+          Instantiate(new Vector3(transform.position.x, 1.5f, transform.position.z), transform.rotation);
+          StartCoroutine(shotReset());
+      }
+   }
+          
+    
+#Fuente: Simple Tank Game
