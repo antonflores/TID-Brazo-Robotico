@@ -1,3 +1,5 @@
+#Algoritmo Rotación
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,3 +18,5 @@ public class Joint : MonoBehaviour
         transform.Rotate(Vector3.up * _angle);
     }
 }
+
+#Fuente: Unity Inverse Kinematics - Arm Animation - Part 1/2
