@@ -1,20 +1,20 @@
+#Dirigirse hacia un objeto
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class IKManager : MonoBehaviour
 {
-    //Root of the armature
     public Joint m_root;
     
-    //End effector
     public Joint m_end;
 
     public GameObject m_target;
 
     public float m_threshold = 0.05f;
 
-    public float m_rate = 5.0f;
+    public float m_rate = 5.0f; #Velocidad a la que se mueve
 
     public int m_steps = 20;
 
@@ -32,7 +32,6 @@ public class IKManager : MonoBehaviour
         return (distance2 - distance1) / deltaTheta;
     }
 
-    // Update is called once per frame
     void Update()
     {
         for (int i = 0; i < m_steps; i++)
@@ -56,3 +55,6 @@ public class IKManager : MonoBehaviour
         return Vector3.Distance(_point1, _point2);
     }
 }
+
+
+#Fuente: Unity Inverse Kinematics - Arm Animation - Part 1/2
